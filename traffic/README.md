@@ -1,0 +1,4 @@
+The values I started with were a MaxPooling size of 3 and a layer density of 64, which gave me an accuracy of around .80, I increased the layer density to 96 and 128 and it gave me better results of around .88 and if I increased it more it would just decrease below that. Finally I found out that modifying the MaxPooling2D gave me better results because of down sampling(?), so I tried 1, 2, and 4 and got the best results(of around .93) with a pool size of 2.
+
+I didn't run any more tests because my computer took aproximately 25-30 minutes each, and so, I left it as is,
+turns out that the accuracy of my recording was .96 so it was a bit better than expected.
